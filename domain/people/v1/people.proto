@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package people.v1beta1;
+
+option go_package = "github.com/kubediscovery/apis/gen/go/domain/people/v1beta1;peoplepb";
+
+import "entity/v1/entity.proto";
+
+message Domain {
+  entity.v1.Entity entity = 1;
+  string domainID = 2;
+  string teamID = 3;
+  bool owner = 4;
+}
