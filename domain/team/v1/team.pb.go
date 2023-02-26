@@ -7,7 +7,7 @@
 package teampb
 
 import (
-	v1 "github.com/kubediscovery/apis/gen/go/entity/v1"
+	v1 "github.com/kubediscovery/apis/entity/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
