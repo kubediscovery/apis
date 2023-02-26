@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package team.v1;
+
+option go_package = "github.com/kubediscovery/apis/gen/go/domain/team/v1;teampb";
+
+import "entity/v1/entity.proto";
+
+message Team {
+  entity.v1.Entity entity = 1;
+  string domainID = 2;
+}
